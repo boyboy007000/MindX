@@ -1,0 +1,24 @@
+o nho cua bien a la dia chi la 0x123
+0x123 dang luu tru gia tri la 10
+
+o nho cua con tro p la dia chi 0x456
+*p ~ a =10
+
+khi su dung mang:
+
+int array [3] ~ tuong duong voi khai bien int  *array
+array o nho chua bien array
+array tro den o nho cua mang dia chi o nho mang
+ array = 1 2 3
+ array1
+
+
+
+o nho trong hdh co 2 trang thai
+
+trang thai 1: dang dc su dung. Cho nen ko dc phep cho thang nao do vao su dung
+trang thai 2: chua dc su dung. hdh cho phep chuong trinh khac vao su dung o nho nay
+vd : chuong trinh a su dung o nho 0x123 = 10
+sau khi chuong trinh a su dung o nho xong ma quen xoa gia tri cua o nho
+thi dc hdh cap lai o nho nay cho chuong trinh b su dung
+
