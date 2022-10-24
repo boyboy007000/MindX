@@ -22,3 +22,69 @@ vd : chuong trinh a su dung o nho 0x123 = 10
 sau khi chuong trinh a su dung o nho xong ma quen xoa gia tri cua o nho
 thi dc hdh cap lai o nho nay cho chuong trinh b su dung
 
+kieu du lieu
+stuct se tao ra o nho dat biet
+
+int
+float
+char
+....
+phanso ps2
+phanso *ps1
+
+ps1->tu = &tu
+ps1->mau = &mau
+
+&(*ps1.mau)
+
+& lay dia chi cua bien
+
+int *p
+
+&p// lay dia chi cua con tro 0x123
+&*p// lay dia chi cua con tro p tro den
+
+int *&p
+
+int *p = Null
+int i =0;
+
+int *q =Null;
+int **q =Null
+
+
+q = &p;
+
+int **p;
+
+int *p
+p //tra ve dia tri con p dang tro den
+*p// gia tri cua dia tri con tro p dang tro den
+
+p // y nghia la gi: tra ve dia tri con tro p dang tro den ( dia chi con tro cap 1 *)
+*p // y nghia la gi: tra ve dia tri con tro p dang tro den (dia chi con cap 1 * dang luu) 
+**p //y nghia la gi: gia tri cua dia tri con tro p dang tro den ma dia tri con tro cap 1 * quan ly
+
+int *a;
+a tro den o nho co dia chi 0x123
+va o nho nay co gia tri la 1
+
+int **p
+**p lay gia tri cua con tro a tro den
+*p lay dc gia tri cua con tro a dang giu la 0x123
+
+int a[3][3]
+
+a[0] = {1 2 3}
+a[1] = {1 2 3}
+a[2] = {1 2 3}
+
+int **a
+
+a[][]
+
+*a[0]+2
+
+a[0] = int *a
+
+*(*a + 2)
