@@ -1,0 +1,1 @@
+bool canJump(int a[], int size);
