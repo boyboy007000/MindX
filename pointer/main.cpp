@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "pointer.h"
+#include <stdlib.h>
 
 int main(){
     // int *p = NULL;// day la bien com tro
@@ -46,14 +47,24 @@ int main(){
     // p = &i;
     // *p = 1;// con tro p chi den 1 o nho 
 
-    int *p = NULL;
+    // int *p = NULL;
     // thaydoigiatri(*&p);
     // printf("gia tri con tro p dang co: %d", *p);
     // printf("dia chi con tro p dang co: %p", p);
 
-    thaydoigiatri(&p);
+    // thaydoigiatri(&p);
     // printf("gia tri con tro p dang co: %d", *p);
-    printf("dia chi con tro p dang co: %p", p);
+    // printf("dia chi con tro p dang co: %p", p);
+
+    int *p = (int*)malloc(sizeof(int));
+
+    phanso * q = (phanso *) malloc(sizeof(phanso));
+
+    free(p);
+    free(q);
+
+
+
 
     return 0;
 }

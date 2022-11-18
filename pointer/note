@@ -88,3 +88,17 @@ a[][]
 a[0] = int *a
 
 *(*a + 2)
+
+int a[10]
+
+[1][][][][][][][][][][]
+
+int n
+
+int a[n]
+
+[1]
+
+100
+ToDo se dc hoc trong danh sach lien ket
+

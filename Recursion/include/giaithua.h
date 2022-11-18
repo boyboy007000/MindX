@@ -1,0 +1,1 @@
+int giaithua(int n);
