@@ -1,0 +1,1 @@
+void chuyen(int n, char a, char c, char trung_gian);
