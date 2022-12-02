@@ -1,4 +1,4 @@
-
+#include "swap.h"
 
 void bubleSort(int *a, int size){
     bool flag_swap = false;
