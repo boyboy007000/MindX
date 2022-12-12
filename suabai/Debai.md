@@ -29,3 +29,13 @@ dinh dang % trong prinf
 
 lap den khi so tien nho hon 1000
 so lon nhat cua menh gia tien tru cho tien can doi den luc khong tru dc nua moi doi menh gia khac
+
+
+
+ 1 2 3 4 5 k = 4; x = 3
+
+ 3 4 2 1
+
+ 1 2 3 4
+
+ 1, 2, 3, 4, 6, 7, 8, 9, 10 k = 4; x = 3 ,remove 5
