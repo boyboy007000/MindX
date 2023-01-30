@@ -1,5 +1,6 @@
 #include <tree.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 Node * newNode(int value){
     Node * temp = (Node*)malloc(sizeof(Node));
@@ -75,4 +76,40 @@ Node * deleteNode(Node * root, int key){
     }
     return root;
 
+}
+
+void storeSorted(Node * root, int arr[], int& size){
+    if (root != NULL){
+        storeSorted(root->pleft, arr, size);
+        arr[size++] = root->data;
+        storeSorted(root->pright, arr, size);
+    }
+}
+
+void printInorder(Node * root){
+    if (root == NULL){
+        return;
+    }
+    printInorder(root->pleft);
+    printf("value %d", root->data);
+    printInorder(root->pright);
+
+}
+
+void printPreorder(Node * root){
+    if (root == NULL){
+        return;
+    }
+    printf("value %d", root->data);
+    printPreorder(root->pleft);
+    printPreorder(root->pright);
+}
+
+void printPostorder(Node * root){
+    if (root == NULL){
+        return;
+    }
+    printPostorder(root->pleft);
+    printPostorder(root->pright);
+    printf("value %d", root->data);
 }
